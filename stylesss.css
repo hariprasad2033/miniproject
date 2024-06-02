@@ -1,0 +1,39 @@
+<html>
+<head></head>
+<body>
+<div class="container">
+    <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/019/819/327/small/living-room-with-rattan-furniture-sofa-table-and-lamp-png.png" style="width:100%">
+        </div>
+        <div class="column">
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="Japan">Japan</option>
+                    <option value="China">China</option>
+                    <option value="New York">New York</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Dubai">Dubai</option>
+                </select>
+                <label for="address">Address</label>
+                <textarea id="address" name="address" placeholder="Enter your address......." style="height:120px"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

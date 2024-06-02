@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/019/819/327/small/living-room-with-rattan-furniture-sofa-table-and-lamp-png.png" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="submit.php" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="Firstname" placeholder="Your name..">
+        <label for="lname">Number</label>
+        <input type="text" id="lname" name="Lastname" placeholder="Enter your number.">
+        <label for="Country">Country</label>
+        <select id="Country" name="Country">
+          <option value="India">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="Japan">japan</option>
+          <option value="China">China</option>
+          <option value="Newyork">Newyork</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Dubai">Dubai</option>
+
+        </select>
+        <label for="Address">Product info</label>
+        <textarea id="Address" name="Address" placeholder="Enter your product details with Measurement......." style="height:120px"></textarea>
+        <button>Submit</button>    
+      </form>
+  
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
